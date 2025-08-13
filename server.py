@@ -14,7 +14,7 @@ from transformers import VisionEncoderDecoderModel, TrOCRProcessor
 # -----------------------------
 # Config
 # -----------------------------
-MODEL_NAME = os.environ.get("TROCR_MODEL", "microsoft/trocr-base-printed")
+MODEL_NAME = os.environ.get("TROCR_MODEL", "microsoft/trocr-small-printed")
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Load once at startup
