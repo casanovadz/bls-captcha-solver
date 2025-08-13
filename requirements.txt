@@ -3,4 +3,5 @@ flask-cors
 torch
 transformers
 Pillow
+tiktoken
 protobuf
